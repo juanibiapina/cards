@@ -22,6 +22,7 @@ type:
   y: 675
   width: 500
   height: 50
+  font_size: 50
 
 type_right:
   x: 595
@@ -29,8 +30,7 @@ type_right:
   width: 135
   height: 50
   align: right
-tr: #alias
-  extends: type_right
+  font_size: 50
 
 description:
   x: 100
@@ -39,7 +39,7 @@ description:
   height: 275
   valign: middle
   align: center
-  font_size: 6
+  font_size: 50
 desc: # alias
   extends: description
 
