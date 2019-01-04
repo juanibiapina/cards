@@ -3,7 +3,7 @@ require "bundler"
 
 Bundler.require
 
-data = Squib.csv file: "input/data.csv"
+data = Squib.csv file: "input/prototype-2.csv"
 
 Squib::Deck.new cards: data["type"].size, layout: "layout.yml", width: 825, height: 1125, dpi: 300 do
   background color: "white"

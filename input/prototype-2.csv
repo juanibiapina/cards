@@ -1,0 +1,46 @@
+type,power,description
+creature,0,Replace a creature on the board. Return that creature to your hand.
+creature,0,Replace a creature on the board. Return that creature to your hand.
+creature,1,
+creature,1,
+creature,1,
+creature,1,
+creature,2,
+creature,2,
+creature,2,
+creature,2,
+creature,2,Return a creature from your graveyard to the game.
+creature,2,Return a creature from your graveyard to the game.
+creature,3,
+creature,3,
+creature,3,
+creature,3,
+creature,3,Immune to Mods.
+creature,3,Immune to Mods.
+creature,4,
+creature,4,
+creature,4,
+creature,4,
+creature,5,
+creature,5,
+creature,5,
+creature,5,
+mod,,Count only creatures with Power < 3.
+mod,,Count only creatures with Power > 3.
+mod,,Double Power of Row 1.
+mod,,Double power of Row 2.
+mod,,Double power of Row 3.
+mod,,Row 1 => 0 Power
+mod,,Row 1 => 1 Power
+mod,,Row 2 => 0 Power
+mod,,Row 2 => 1 Power
+mod,,Row 3 => 0 Power
+mod,,Row 3 => 1 Power
+mod,,Use 3 Rows for counting total power.
+mod,,Use 2 Rows for counting total power.
+spell,,Destroy a Mod.
+spell,,Every player sacrifices a Creature.
+spell,,Kill Row 1.
+spell,,Kill all creatures on Row 2.
+spell,,Kill all creatures on Row 3.
+spell,,Return all creatures of Row 1 to hand.
