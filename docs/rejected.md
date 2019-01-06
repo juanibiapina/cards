@@ -1,0 +1,2 @@
+- Have teams or pairs
+- Mechanics for cheating
