@@ -1,10 +1,10 @@
-all: prototype-2-proof prototype-2-pnp prototype-2-cards
+all: proof pnp cards
 
-prototype-2-proof:
-	SQUIB_BUILD=proof bundle exec ruby src/prototype-2.rb
+proof:
+	SQUIB_BUILD=proof bundle exec ruby src/prototype.rb
 
-prototype-2-pnp:
-	SQUIB_BUILD=print_and_play bundle exec ruby src/prototype-2.rb
+pnp:
+	SQUIB_BUILD=print_and_play bundle exec ruby src/prototype.rb
 
-prototype-2-cards:
-	SQUIB_BUILD=cards bundle exec ruby src/prototype-2.rb
+cards:
+	SQUIB_BUILD=cards bundle exec ruby src/prototype.rb
