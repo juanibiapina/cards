@@ -1,15 +1,12 @@
-title:
+# cut + safe zone: 75
+# width: 675
+# height: 975
+
+name:
   x: 90
   y: 90
-  width: 500
+  width: 645
   height: 50
-
-upper_right:
-  x: 595
-  y: 90
-  width: 135
-  height: 50
-  align: right
 
 art:
   x: 75
@@ -17,24 +14,9 @@ art:
   width: 675
   height: 520
 
-type:
-  x: 90
-  y: 675
-  width: 500
-  height: 50
-  font_size: 50
-
-type_right:
-  x: 595
-  y: 675
-  width: 135
-  height: 50
-  align: right
-  font_size: 50
-
 description:
   x: 100
-  y: 730
+  y: 675
   width: 625
   height: 275
   valign: middle
@@ -58,12 +40,3 @@ lower_left:
   font_size: 6
   valign: bottom
   align: left
-
-copyright:
-  x: 75
-  y: 1025
-  width: 675
-  height: 25
-  font_size: 5
-  align: center
-  valign: bottom
