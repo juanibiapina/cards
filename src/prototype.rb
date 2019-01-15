@@ -11,6 +11,7 @@ Squib::Deck.new cards: data["type"].size, layout: "layouts/layout.yml", width: 8
 
   text str: data["name"], layout: "name"
   text str: data["description"], layout: "description"
+  png file: data["name"].map { |name| "tmp/#{name}.png" }, layout: "art"
 
   build :proof do
     safe_zone

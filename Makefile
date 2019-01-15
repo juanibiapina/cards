@@ -1,4 +1,7 @@
-all: proof pnp cards
+all: images proof pnp cards
+
+images:
+	bundle exec ruby src/images.rb
 
 proof:
 	SQUIB_BUILD=proof bundle exec ruby src/prototype.rb
