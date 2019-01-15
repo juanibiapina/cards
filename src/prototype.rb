@@ -7,6 +7,7 @@ data = Squib.csv file: "data/prototype.csv"
 
 Squib::Deck.new cards: data["type"].size, layout: "layouts/layout.yml", width: 825, height: 1125, dpi: 300 do
   background color: "white"
+  hint text: :cyan if ENV["SQUIB_BUILD"] == "proof"
 
   text str: data["type"].map(&:capitalize), layout: "type"
   text str: data["power"], layout: "type_right"
