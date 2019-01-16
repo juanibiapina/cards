@@ -1,4 +1,5 @@
 qty,type,purpose,means,name,M_c,D_c,T_c,M_p,D_p,T_p,VP,description,flavor
+1,D,,side-effect,Sample Card Name,4,3,2,1,1,1,15,"When any player acquires a resource, you can acquire a resource as well","Flavor text is an amazing thing, if you can find space for it."
 1,D,acquire,side-effect,,,10,,,,,15,"When any player acquires a resource, you can acquire a resource as well",
 1,D,attack,,,,,,,,,,Exile a galaxy card,
 1,D,stall,,,,4,,,4,,6,No one can acquire Galaxy Resources until your next turn,
