@@ -15,9 +15,9 @@ Squib::Deck.new cards: data["type"].size, layout: "layouts/layout.yml", width: 8
 
   build :proof do
     safe_zone
-    cut_zone
 
     save_png dir: "output",
+             trim: "0.125in",
              range: 0,
              prefix: "proof_"
   end
