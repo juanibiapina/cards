@@ -36,6 +36,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    rb-readline (0.5.5)
     roo (2.7.1)
       nokogiri (~> 1)
       rubyzip (~> 1.1, < 2.0.0)
@@ -64,6 +65,7 @@ PLATFORMS
 DEPENDENCIES
   identicon
   pry
+  rb-readline
   squib
 
 BUNDLED WITH

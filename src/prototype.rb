@@ -3,7 +3,21 @@ require "bundler"
 
 Bundler.require
 
-data = Squib.csv file: "data/prototype.csv"
+data = CSV.read("data/prototype.csv", headers: true, converters: :numeric)
+
+data.delete_if { |row| row["qty"] <= 0 }
+
+extra_rows = data.reduce([]) do |memo, row|
+  (row["qty"] - 1).times do
+    memo << row
+  end
+
+  memo
+end
+
+extra_rows.each do |row|
+  data << row
+end
 
 TOTAL_WIDTH = 825
 TOTAL_HEIGHT = 1125

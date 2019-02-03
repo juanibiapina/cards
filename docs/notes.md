@@ -55,9 +55,32 @@ Counters on top of cards add a bunch of dynamic information. It allows us to dam
 - Understand the advantages and disadvantages of Dominion
   - Disadvantages
     - Annoying setup
+    - Not much player interaction? Too many of the same card
 - How do you win?
   - Is this connected to the theme?
   - Victory points seems to be a good choice because points can be tuned to make the game more balanced
+
+# Areas in the game
+
+- Your deck
+- Your hand
+- Your discard
+- Galaxy cards
+- Exile
+- Table
+
+# Phases
+
+- Draw
+  - Draw a card
+- Action
+  - Do one action
+
+# Actions
+
+- Play a card
+- Acquire a Galaxy Resource
+- Use an ability
 
 # Gameplay
 
