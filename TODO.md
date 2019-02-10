@@ -1,0 +1,3 @@
+- render the powers and costs in the cards
+- create a few more cards to print
+- print cards
